@@ -1,0 +1,116 @@
+/* =========================================
+    Default Theme
+    ----------------------------------------
+    Fonts: Raleway & Open Sans
+    ----------------------------------------
+    Colors:
+        Moon Yellow:         #f4c613
+        Grey:                #212226
+        White Smoke:         #f4f4f4
+        White:               #fff
+        Black:               #000   
+============================================ */
+
+
+/* =========================================
+                Html, Body
+============================================ */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    color: #212226;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Raleway", sans-serif;
+    color: #000;
+}
+
+h6, .date {
+    color: #c3c3c3;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+section {
+    background: #fff;
+    overflow: hidden;
+}
+
+
+/* =========================================
+                Preloader
+============================================ */
+
+#preloader {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+#status {
+    background-image: url("../img/preloader/preloader.gif");
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
+}
+
+
+/* ==========================
+        Content boxes
+============================= */
+
+.content-box-lg {
+    padding: 120px 0;
+}
+
+.content-box-md {
+    padding: 100px 0;
+}
+
+.content-box-sm {
+    padding: 35px 0;
+}
+.item {
+    padding-bottom: 20px;
+}
+
+/* ==========================
+          Footer
+============================= */
+footer {
+    background: #212226;
+    padding: 30px;
+}
+
+footer p {
+    color: #fff;
+    line-height: 20px;
+    margin: 0;
+}
+
+footer p span {
+    color: #f4c613;
+}
+
